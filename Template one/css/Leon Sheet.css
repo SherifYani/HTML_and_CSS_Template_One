@@ -264,6 +264,9 @@ body {
       flex-direction: column;
       text-align: center;
    }
+   .services .services-content .srv .text{
+      margin-left: 0px;
+   }
 }
 
 .services .services-content .srv i {
@@ -284,7 +287,7 @@ body {
 .services .services-content .srv .text p {
    color: var(--paragraph-color);
    line-height: var(--paragraph-line-height);
-   font-weight: 300;
+   font-weight: 500;
 }
 
 .services .services-content:last-child {
@@ -360,6 +363,7 @@ body {
 .portfolio .portfolio-content .card p {
    color: var(--paragraph-color);
    line-height: var(--paragraph-line-height);
+   font-weight: 500;
    margin-bottom: 0px;
 }
 
@@ -457,6 +461,7 @@ body {
 .about-content .text p:last-of-type {
    color: var(--paragraph-color);
    line-height: var(--paragraph-line-height);
+   font-weight: 500;
 }
 
 /* End About Section */
